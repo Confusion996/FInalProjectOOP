@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "AdminApplication", "AdminApplication.exe", "{C210B4DE-7F12-1E38-8636-883D82E95DE4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\A.H\source\repos\AdminApplication\AdminApplication\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX\AdminApplication.exe
+		RemoteMachine = MCVN2Y
+		StartingDirectory = C:\Users\A.H\source\repos\AdminApplication\AdminApplication\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C210B4DE-7F12-1E38-8636-883D82E95DE4}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61116042-A076-4E0A-AA4C-5D6ABDF9DDCD}
+	EndGlobalSection
+EndGlobal

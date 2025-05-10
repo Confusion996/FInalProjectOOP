@@ -1,0 +1,1 @@
+C:\Users\A.H\source\repos\AdminApplication\AdminApplication\AdminApplication.csproj;x64

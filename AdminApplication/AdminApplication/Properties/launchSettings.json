@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AdminApplication (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AdminApplication (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

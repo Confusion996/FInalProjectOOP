@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z6qO1NifL2k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\AdminApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A.H\\.nuget\\packages\\communitytoolkit.winui.ui.controls.datagrid\\7.1.2\\communitytoolkit.winui.ui.controls.datagrid.7.1.2.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\harfbuzzsharp\\2.8.2.5\\harfbuzzsharp.2.8.2.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2.5\\harfbuzzsharp.nativeassets.macos.2.8.2.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2.5\\harfbuzzsharp.nativeassets.win32.2.8.2.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\livechartscore\\2.0.0-rc1\\livechartscore.2.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-rc1\\livechartscore.skiasharpview.2.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\livechartscore.skiasharpview.winui\\2.0.0-rc1\\livechartscore.skiasharpview.winui.2.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\skiasharp\\2.88.5\\skiasharp.2.88.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.5\\skiasharp.harfbuzz.2.88.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.5\\skiasharp.nativeassets.macos.2.88.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.5\\skiasharp.nativeassets.win32.2.88.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\skiasharp.views.winui\\2.88.5\\skiasharp.views.winui.2.88.5.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\system.data.oledb\\9.0.4\\system.data.oledb.9.0.4.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.4\\system.diagnostics.eventlog.9.0.4.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.4\\system.diagnostics.performancecounter.9.0.4.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.14\\microsoft.netcore.app.runtime.win-x86.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x86.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.14\\microsoft.netcore.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.14\\microsoft.netcore.app.runtime.win-x64.8.0.14.nupkg.sha512",
+    "C:\\Users\\A.H\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.14.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "AdminApplication depends on LiveChartsCore.SkiaSharpView.WinUI (>= 2.0.0-beta3) but LiveChartsCore.SkiaSharpView.WinUI 2.0.0-beta3 was not found. LiveChartsCore.SkiaSharpView.WinUI 2.0.0-rc1 was resolved instead.",
+      "libraryId": "LiveChartsCore.SkiaSharpView.WinUI",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041",
+        "net8.0-windows10.0.19041/win-arm64",
+        "net8.0-windows10.0.19041/win-x64",
+        "net8.0-windows10.0.19041/win-x86"
+      ]
+    }
+  ]
+}

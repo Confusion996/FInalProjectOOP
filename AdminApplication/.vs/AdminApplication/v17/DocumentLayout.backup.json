@@ -1,0 +1,423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\services\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\services\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\model\\adminaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\model\\adminaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\requests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\requests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\requests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\requests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\services\\plandataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\services\\plandataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\applicationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\applicationmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\database\\createadmintable.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\database\\createadmintable.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\applicationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\applicationmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\payments.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\payments.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\pages\\payments.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\pages\\payments.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A.H\\source\\repos\\FinalProjectWinUi\\FinalProjectWinUi\\Services\\PricingData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|c:\\users\\a.h\\source\\repos\\adminapplication\\adminapplication\\model\\plantypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980CAB0C-236C-4FF6-A8D8-A8ECFEEEBA70}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\model\\plantypedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1465,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Report.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Report.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Report.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Report.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\Report.xaml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAMUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-06T05:23:58.718Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Report.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Report.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Report.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\Report.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T05:24:32.139Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Requests.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Requests.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Requests.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Requests.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\Requests.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:35:10.326Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\AdminAuthService.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Services\\AdminAuthService.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\AdminAuthService.cs",
+              "RelativeToolTip": "AdminApplication\\Services\\AdminAuthService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:59:40.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:51:43.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T21:47:25.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignupPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\SignupPage.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\SignupPage.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\SignupPage.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\SignupPage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAlwDMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:54:24.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminAccount.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Model\\AdminAccount.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Model\\AdminAccount.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Model\\AdminAccount.cs",
+              "RelativeToolTip": "AdminApplication\\Model\\AdminAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:12:31.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignupPage.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\SignupPage.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\SignupPage.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\SignupPage.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\SignupPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T21:51:23.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\MainWindow.xaml",
+              "RelativeToolTip": "AdminApplication\\MainWindow.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T18:48:19.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:26:26.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\AppState.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Services\\AppState.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\AppState.cs",
+              "RelativeToolTip": "AdminApplication\\Services\\AppState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:11:48.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Requests.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Requests.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Requests.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Requests.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\Requests.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T11:44:00.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlanDataService.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\PlanDataService.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Services\\PlanDataService.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Services\\PlanDataService.cs",
+              "RelativeToolTip": "AdminApplication\\Services\\PlanDataService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T05:13:41.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\ApplicationManagement.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\ApplicationManagement.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\ApplicationManagement.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\ApplicationManagement.xaml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T15:54:27.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateAdminTable.sql",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Database\\CreateAdminTable.sql",
+              "RelativeDocumentMoniker": "AdminApplication\\Database\\CreateAdminTable.sql",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Database\\CreateAdminTable.sql",
+              "RelativeToolTip": "AdminApplication\\Database\\CreateAdminTable.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-07T16:27:22.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\ApplicationManagement.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\ApplicationManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\ApplicationManagement.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\ApplicationManagement.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIA2wA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:00:07.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Payments.xaml",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Payments.xaml",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Payments.xaml",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Payments.xaml",
+              "RelativeToolTip": "AdminApplication\\Pages\\Payments.xaml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T15:54:18.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Payments.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Payments.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Pages\\Payments.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Pages\\Payments.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\Pages\\Payments.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:29:54.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PricingData.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\FinalProjectWinUi\\FinalProjectWinUi\\Services\\PricingData.cs",
+              "RelativeDocumentMoniker": "..\\FinalProjectWinUi\\FinalProjectWinUi\\Services\\PricingData.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\FinalProjectWinUi\\FinalProjectWinUi\\Services\\PricingData.cs",
+              "RelativeToolTip": "..\\FinalProjectWinUi\\FinalProjectWinUi\\Services\\PricingData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T13:53:43.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\app.manifest",
+              "RelativeDocumentMoniker": "AdminApplication\\app.manifest",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\app.manifest",
+              "RelativeToolTip": "AdminApplication\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-05-07T12:33:43.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\App.xaml.cs",
+              "RelativeToolTip": "AdminApplication\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:33:41.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlanTypeData.cs",
+              "DocumentMoniker": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Model\\PlanTypeData.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Model\\PlanTypeData.cs",
+              "ToolTip": "C:\\Users\\A.H\\source\\repos\\AdminApplication\\AdminApplication\\Model\\PlanTypeData.cs",
+              "RelativeToolTip": "AdminApplication\\Model\\PlanTypeData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:36:18.578Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
