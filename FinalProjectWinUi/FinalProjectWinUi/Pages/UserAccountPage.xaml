@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FinalProjectWinUi.Pages.UserAccountPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectWinUi.Pages"
+    xmlns:models="using:FinalProjectWinUi.Models"
+    Background="{ThemeResource PrimaryBackgroundBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" 
+                  VerticalScrollMode="Auto"
+                  HorizontalScrollBarVisibility="Disabled">
+        <Grid Padding="48">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <TextBlock Text="My Account" 
+                      Style="{StaticResource PageTitleStyle}"
+                      Grid.Row="0"/>
+
+            <!-- Main Content -->
+            <Grid Grid.Row="1" Margin="0,32,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Personal Information Section -->
+                <Border Grid.Column="0" 
+                        Style="{StaticResource CardStyle}"
+                        Margin="0,0,24,0">
+                    <StackPanel Spacing="24">
+                        <TextBlock Text="Personal Information" 
+                                 Style="{StaticResource SectionTitleStyle}"/>
+                        
+                        <StackPanel Spacing="16">
+                            <StackPanel>
+                                <TextBlock Text="Full Name" 
+                                         Foreground="{ThemeResource SecondaryTextBrush}" 
+                                         FontSize="{ThemeResource CaptionFontSize}"/>
+                                <TextBlock x:Name="NameText" 
+                                         Text="Name: " 
+                                         FontSize="{ThemeResource BodyFontSize}" 
+                                         Foreground="{ThemeResource TextBrush}" 
+                                         Margin="0,4,0,0"/>
+                            </StackPanel>
+
+                            <StackPanel>
+                                <TextBlock Text="Email Address" 
+                                         Foreground="{ThemeResource SecondaryTextBrush}" 
+                                         FontSize="{ThemeResource CaptionFontSize}"/>
+                                <TextBlock x:Name="EmailText" 
+                                         Text="Email: " 
+                                         FontSize="{ThemeResource BodyFontSize}" 
+                                         Foreground="{ThemeResource TextBrush}" 
+                                         Margin="0,4,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Account Security Section -->
+                <Border Grid.Column="1" 
+                        Style="{StaticResource CardStyle}"
+                        Margin="24,0,0,0">
+                    <StackPanel Spacing="24">
+                        <TextBlock Text="Account Security" 
+                                 Style="{StaticResource SectionTitleStyle}"/>
+
+                        <StackPanel Spacing="16">
+                            <PasswordBox x:Name="OldPasswordBox" 
+                                      Header="Current Password" 
+                                      Width="300" 
+                                      Background="{ThemeResource SecondaryBackgroundBrush}"
+                                      Foreground="{ThemeResource TextBrush}"
+                                      BorderBrush="{ThemeResource AccentBrush}"
+                                      BorderThickness="1"/>
+
+                            <PasswordBox x:Name="NewPasswordBox" 
+                                      Header="New Password" 
+                                      Width="300" 
+                                      Background="{ThemeResource SecondaryBackgroundBrush}"
+                                      Foreground="{ThemeResource TextBrush}"
+                                      BorderBrush="{ThemeResource AccentBrush}"
+                                      BorderThickness="1"/>
+
+                            <PasswordBox x:Name="ConfirmPasswordBox" 
+                                      Header="Confirm New Password" 
+                                      Width="300" 
+                                      Background="{ThemeResource SecondaryBackgroundBrush}"
+                                      Foreground="{ThemeResource TextBrush}"
+                                      BorderBrush="{ThemeResource AccentBrush}"
+                                      BorderThickness="1"/>
+
+                            <Button Content="Update Password" 
+                                  Click="ChangePasswordButton_Click" 
+                                  Style="{StaticResource ButtonStyle}"
+                                  Margin="0,8,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- Sign Out Button -->
+            <Button Content="Sign Out" 
+                    Click="LogoutButton_Click" 
+                    Background="{ThemeResource ErrorBrush}" 
+                    Foreground="{ThemeResource TextBrush}" 
+                    FontWeight="SemiBold" 
+                    Height="45" 
+                    CornerRadius="8" 
+                    Width="200" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,32,0,0" 
+                    Grid.Row="2"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

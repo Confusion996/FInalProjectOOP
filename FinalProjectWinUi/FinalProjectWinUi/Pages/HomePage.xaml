@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FinalProjectWinUi.Pages.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="{ThemeResource PrimaryBackgroundBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" 
+                  VerticalScrollMode="Auto"
+                  HorizontalScrollBarVisibility="Disabled">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Hero Section -->
+            <Grid Grid.Row="0" 
+                  Background="{ThemeResource SecondaryBackgroundBrush}"
+                  Padding="32"
+                  MinHeight="350">
+                <StackPanel Spacing="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="ETN Funeral Home"
+                             FontFamily="Georgia"
+                             FontSize="48"
+                             FontWeight="Light"
+                             Foreground="{ThemeResource TextBrush}"
+                             HorizontalAlignment="Center"/>
+                    <TextBlock Text="Serving families with dignity since 2025"
+                             FontFamily="Georgia"
+                             FontSize="20"
+                             FontStyle="Italic"
+                             Foreground="{ThemeResource SecondaryTextBrush}"
+                             HorizontalAlignment="Center"/>
+                    <TextBlock Text="Providing compassionate care during life's most difficult moments"
+                             FontFamily="Georgia"
+                             FontSize="16"
+                             Foreground="{ThemeResource SecondaryTextBrush}"
+                             HorizontalAlignment="Center"
+                             TextWrapping="Wrap"
+                             TextAlignment="Center"
+                             MaxWidth="600"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Quick Actions Bar -->
+            <Grid Grid.Row="1" 
+                  Background="{ThemeResource PrimaryBackgroundBrush}"
+                  Padding="32">
+                <StackPanel Spacing="16" 
+                           HorizontalAlignment="Center">
+                    <TextBlock Text="Begin Your Journey with Us"
+                              FontFamily="Georgia"
+                              FontSize="24"
+                              FontWeight="Light"
+                              Foreground="{ThemeResource TextBrush}"
+                              HorizontalAlignment="Center"/>
+                    
+                    <StackPanel Orientation="Horizontal" 
+                               HorizontalAlignment="Center"
+                               Spacing="16">
+                        <Button Content="View Plans"
+                                Style="{StaticResource ButtonStyle}"
+                                Click="Plans_Click"
+                                Width="180"
+                                Height="40"
+                                FontFamily="Georgia"
+                                FontSize="16"/>
+                        <Button Content="Get Started"
+                                Style="{StaticResource ButtonStyle}"
+                                Click="BuyNow_Click"
+                                Width="180"
+                                Height="40"
+                                FontFamily="Georgia"
+                                FontSize="16"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <!-- Services Section -->
+            <Grid Grid.Row="2" Padding="32">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Traditional Services -->
+                <Border Grid.Column="0"
+                        Style="{StaticResource CardStyle}"
+                        Margin="0,0,16,0">
+                    <StackPanel Spacing="16">
+                        <TextBlock Text="Traditional Services"
+                                  FontFamily="Georgia"
+                                  FontSize="28"
+                                  FontWeight="Light"
+                                  Foreground="{ThemeResource TextBrush}"
+                                  HorizontalAlignment="Center"/>
+                        
+                        <TextBlock Text="Honoring traditions with dignity and respect"
+                                  FontFamily="Georgia"
+                                  FontSize="14"
+                                  FontStyle="Italic"
+                                  Foreground="{ThemeResource SecondaryTextBrush}"
+                                  TextWrapping="Wrap"
+                                  TextAlignment="Center"
+                                  Margin="0,0,0,8"/>
+
+                        <StackPanel Spacing="12">
+                            <TextBlock Text="• Basic Plan"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock Text="• Standard Plan"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock Text="• Premium Plan"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock Text="• Deluxe Plan"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Cremation Services -->
+                <Border Grid.Column="1"
+                        Style="{StaticResource CardStyle}"
+                        Margin="16,0,0,0">
+                    <StackPanel Spacing="16">
+                        <TextBlock Text="Cremation Services"
+                                  FontFamily="Georgia"
+                                  FontSize="28"
+                                  FontWeight="Light"
+                                  Foreground="{ThemeResource TextBrush}"
+                                  HorizontalAlignment="Center"/>
+                        
+                        <TextBlock Text="Modern and respectful cremation options"
+                                  FontFamily="Georgia"
+                                  FontSize="14"
+                                  FontStyle="Italic"
+                                  Foreground="{ThemeResource SecondaryTextBrush}"
+                                  TextWrapping="Wrap"
+                                  TextAlignment="Center"
+                                  Margin="0,0,0,8"/>
+
+                        <StackPanel Spacing="12">
+                            <TextBlock Text="• Simple Cremation "
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock Text="• Memorial Cremation"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock Text="• Premium Cremation"
+                                      FontFamily="Georgia"
+                                      FontSize="14"
+                                      Foreground="{ThemeResource TextBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- Footer Section -->
+            <Grid Grid.Row="3" 
+                  Background="{ThemeResource SecondaryBackgroundBrush}"
+                  Padding="32">
+                <StackPanel Spacing="12" HorizontalAlignment="Center">
+                    <TextBlock Text="Contact Us"
+                              FontFamily="Georgia"
+                              FontSize="24"
+                              Foreground="{ThemeResource TextBrush}"
+                              HorizontalAlignment="Center"/>
+                    <TextBlock Text="123 Memorial Drive, Anytown, ST 12345"
+                              FontFamily="Georgia"
+                              FontSize="14"
+                              Foreground="{ThemeResource SecondaryTextBrush}"
+                              HorizontalAlignment="Center"/>
+                    <TextBlock Text="Phone: (555) 123-4567"
+                              FontFamily="Georgia"
+                              FontSize="14"
+                              Foreground="{ThemeResource SecondaryTextBrush}"
+                              HorizontalAlignment="Center"/>
+                    <TextBlock Text="Email: info@ETN.com"
+                              FontFamily="Georgia"
+                              FontSize="14"
+                              Foreground="{ThemeResource SecondaryTextBrush}"
+                              HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>

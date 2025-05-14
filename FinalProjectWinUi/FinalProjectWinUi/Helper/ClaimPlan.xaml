@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FinalProjectWinUi.Helper.ClaimPlan"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectWinUi.Helper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="using:CommunityToolkit.WinUI.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource PrimaryBackgroundBrush}">
+
+    <ScrollViewer>
+        <StackPanel Spacing="24" Padding="48">
+            <!-- Header Section -->
+            <StackPanel Spacing="16">
+                <TextBlock Text="Claim Plan" 
+                          Style="{StaticResource PageTitleStyle}"/>
+                <TextBlock Text="Submit your claim request and required documents to process your plan benefits."
+                          Foreground="{ThemeResource SecondaryTextBrush}"
+                          FontSize="{ThemeResource BodyFontSize}"
+                          TextWrapping="Wrap"
+                          MaxWidth="800"/>
+            </StackPanel>
+
+            <!-- Plan Details Section -->
+            <StackPanel Spacing="16">
+                <TextBlock Text="Plan Details" 
+                          Style="{StaticResource SectionTitleStyle}"/>
+                <Border Style="{StaticResource CardStyle}">
+                    <toolkit:DataGrid x:Name="PlanDetailsGrid" 
+                                    AutoGenerateColumns="False" 
+                                    Height="200"
+                                    Background="Transparent"
+                                    BorderBrush="{ThemeResource SecondaryBackgroundBrush}"
+                                    BorderThickness="1">
+                <toolkit:DataGrid.Columns>
+                            <toolkit:DataGridTextColumn Header="PlanId" 
+                                                      Binding="{Binding PlanId}"/>
+                            <toolkit:DataGridTextColumn Header="Planholder Name" 
+                                                      Binding="{Binding PlanholderName}"/>
+                            <toolkit:DataGridTextColumn Header="Plan Type" 
+                                                      Binding="{Binding PlanType}"/>
+                            <toolkit:DataGridTextColumn Header="Plan Name" 
+                                                      Binding="{Binding PlanName}"/>
+                            <toolkit:DataGridTextColumn Header="Contract Price" 
+                                                      Binding="{Binding ContractPrice}"/>
+                            <toolkit:DataGridTextColumn Header="Balance" 
+                                                      Binding="{Binding Balance}"/>
+                            <toolkit:DataGridTextColumn Header="Status" 
+                                                      Binding="{Binding Status}"/>
+                            <toolkit:DataGridTextColumn Header="Date Applied" 
+                                                      Binding="{Binding DateApplied}"/>
+                </toolkit:DataGrid.Columns>
+            </toolkit:DataGrid>
+                </Border>
+            </StackPanel>
+
+            <!-- Claimant Information Section -->
+            <StackPanel Spacing="16">
+                <TextBlock Text="Claimant Information" 
+                          Style="{StaticResource SectionTitleStyle}"/>
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel Spacing="16" Padding="16">
+                        <TextBox PlaceholderText="Name of Claimant" 
+                                x:Name="ClaimantNameTextBox"
+                                Foreground="{ThemeResource TextBrush}"
+                                Background="{ThemeResource SecondaryBackgroundBrush}"
+                                BorderBrush="{ThemeResource SecondaryBackgroundBrush}"/>
+                        <TextBox PlaceholderText="Relationship to Planholder" 
+                                x:Name="RelationshipTextBox"
+                                Foreground="{ThemeResource TextBrush}"
+                                Background="{ThemeResource SecondaryBackgroundBrush}"
+                                BorderBrush="{ThemeResource SecondaryBackgroundBrush}"/>
+                        <TextBox PlaceholderText="Contact Number" 
+                                x:Name="ContactTextBox"
+                                Foreground="{ThemeResource TextBrush}"
+                                Background="{ThemeResource SecondaryBackgroundBrush}"
+                                BorderBrush="{ThemeResource SecondaryBackgroundBrush}"/>
+                        <TextBox PlaceholderText="Email Address" 
+                                x:Name="EmailTextBox"
+                                Foreground="{ThemeResource TextBrush}"
+                                Background="{ThemeResource SecondaryBackgroundBrush}"
+                                BorderBrush="{ThemeResource SecondaryBackgroundBrush}"/>
+                        <DatePicker x:Name="ClaimDatePicker" 
+                                  Header="Date of Claim"
+                                  Foreground="{ThemeResource TextBrush}"
+                                  Background="{ThemeResource SecondaryBackgroundBrush}"
+                                  BorderBrush="{ThemeResource SecondaryBackgroundBrush}"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- Documents Section -->
+            <StackPanel Spacing="16">
+                <TextBlock Text="Required Documents" 
+              Style="{StaticResource SectionTitleStyle}"/>
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel Spacing="16" Padding="16">
+                        <!-- Valid ID Upload -->
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Content="Upload Valid ID of Claimant" 
+                        Click="UploadValidID_Click"
+                        Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock x:Name="ValidIdPathTextBlock" 
+                           Text=""
+                           VerticalAlignment="Center"
+                           Foreground="{ThemeResource SecondaryTextBrush}"
+                           TextWrapping="Wrap"
+                           Width="400"/>
+                        </StackPanel>
+
+                        <!-- Death Certificate Upload -->
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Content="Upload Death Certificate" 
+                        Click="UploadDeathCert_Click"
+                        Foreground="{ThemeResource TextBrush}"/>
+                            <TextBlock x:Name="DeathCertPathTextBlock" 
+                           Text=""
+                           VerticalAlignment="Center"
+                           Foreground="{ThemeResource SecondaryTextBrush}"
+                           TextWrapping="Wrap"
+                           Width="400"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+            <!-- Submit Button -->
+            <Button Content="Submit Claim" 
+                    Click="SubmitClaim_Click" 
+                    Foreground="{ThemeResource TextBrush}"
+                    HorizontalAlignment="Right"
+                    Margin="0,16,0,0"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FinalProjectWinUi.Helper.ViewApplicationStatus"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectWinUi.Helper"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="using:CommunityToolkit.WinUI.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+        <StackPanel Spacing="20" Padding="20">
+
+            <TextBlock Text="Plan Applications"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       Margin="0,0,0,10"/>
+
+            <toolkit:DataGrid x:Name="PlanApplicationsGrid"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      HeadersVisibility="Column"
+                      BorderThickness="1"
+                      BorderBrush="Gray"
+                      Height="300">
+
+                <toolkit:DataGrid.Columns>
+                    <toolkit:DataGridTextColumn Header="Plan ID" Binding="{Binding [PlanId]}" />
+                    <toolkit:DataGridTextColumn Header="Plan Type" Binding="{Binding [PlanType]}" />
+                    <toolkit:DataGridTextColumn Header="Plan Name" Binding="{Binding [PlanName]}" />
+                    <toolkit:DataGridTextColumn Header="Contract Price" Binding="{Binding [ContractPrice]}" />
+                    <toolkit:DataGridTextColumn Header="Payment Mode" Binding="{Binding [ModeOfPayment]}" />
+                    <toolkit:DataGridTextColumn Header="Status" Binding="{Binding [Status]}" />
+                </toolkit:DataGrid.Columns>
+            </toolkit:DataGrid>
+
+            <TextBlock Text="Claim Applications"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       Margin="0,20,0,10"/>
+
+            <toolkit:DataGrid x:Name="ClaimApplicationsGrid"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      HeadersVisibility="Column"
+                      BorderThickness="1"
+                      BorderBrush="Gray"
+                      Height="300">
+
+                <toolkit:DataGrid.Columns>
+                    <toolkit:DataGridTextColumn Header="Claim ID" Binding="{Binding [ClaimId]}" />
+                    <toolkit:DataGridTextColumn Header="Plan ID" Binding="{Binding [PlanId]}" />
+                    <toolkit:DataGridTextColumn Header="Claimant Name" Binding="{Binding [ClaimantName]}" />
+                    <toolkit:DataGridTextColumn Header="Relationship" Binding="{Binding [RelationshipToPlanHolder]}" />
+                    <toolkit:DataGridTextColumn Header="Contact Number" Binding="{Binding [ContactNumber]}" />
+                    <toolkit:DataGridTextColumn Header="Email Address" Binding="{Binding [EmailAddress]}" />
+                    <toolkit:DataGridTextColumn Header="Claim Status" Binding="{Binding [ClaimStatus]}" />
+                </toolkit:DataGrid.Columns>
+            </toolkit:DataGrid>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

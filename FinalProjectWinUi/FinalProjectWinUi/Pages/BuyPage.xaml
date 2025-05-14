@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FinalProjectWinUi.Pages.BuyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectWinUi.Pages"
+    Background="{ThemeResource PrimaryBackgroundBrush}">
+
+    <Grid>
+        <NavigationView x:Name="BuyNavigationView"
+                        PaneDisplayMode="Left"
+                        IsPaneOpen="True"
+                        IsSettingsVisible="False"
+                        IsBackButtonVisible="Collapsed"
+                        SelectionChanged="BuyNavigationView_SelectionChanged"
+                        Style="{StaticResource NavigationViewStyle}">
+            
+            <NavigationView.MenuItems>
+                <NavigationViewItem Content="Apply for a Plan" 
+                                   Tag="ApplyPlan"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="Pay for a Plan" 
+                                   Tag="PayPlan" 
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="Claim Plan" 
+                                   Tag="ClaimPlan"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="My Plans" 
+                                   Tag="ViewPlan"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="Transaction History" 
+                                   Tag="TransactionHistory"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="View Application Status" 
+                                   Tag="ViewStatus"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+                <NavigationViewItem Content="Update/Transfer Plan" 
+                                   Tag="UpdateInfo"
+                                   Margin="0,8,0,0"
+                                   Style="{StaticResource NavigationViewItemStyle}"/>
+            </NavigationView.MenuItems>
+
+            <Frame x:Name="ContentFrame" Background="{ThemeResource PrimaryBackgroundBrush}">
+                <!-- Default Content -->
+                <ScrollViewer>
+                    <Grid Padding="48">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Welcome Message -->
+                        <StackPanel Grid.Row="0" Spacing="16">
+                            <TextBlock Text="Welcome to Our Services"
+                                      Style="{StaticResource PageTitleStyle}"/>
+                            <TextBlock Text="We provide comprehensive funeral planning services to help you make informed decisions during difficult times."
+                                      Foreground="{ThemeResource SecondaryTextBrush}"
+                                      FontSize="{ThemeResource BodyFontSize}"
+                                      TextWrapping="Wrap"
+                                      MaxWidth="800"/>
+                        </StackPanel>
+
+                        <!-- Service Cards -->
+                        <StackPanel Grid.Row="1" 
+                                   Margin="0,32,0,0"
+                                   Spacing="24">
+                            <TextBlock Text="Our Services"
+                                      Style="{StaticResource SectionTitleStyle}"/>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <!-- Apply for a Plan Card -->
+                                <Border Grid.Column="0"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="12,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="ApplyPlan">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="Apply for a Plan" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="Start your journey with us by applying for a funeral plan that suits your needs and preferences." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- Pay for a Plan Card -->
+                                <Border Grid.Column="1"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="12,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="PayPlan">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="Pay for a Plan" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="Manage your plan payments securely and conveniently through our payment system." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- Claim Plan Card -->
+                                <Border Grid.Column="2"
+        Style="{StaticResource CardStyle}"
+        Margin="12,0"
+        Tapped="Card_Tapped"
+        Tag="ClaimPlan">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="Claim Plan" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="When the time comes, we'll help you activate and claim the benefits of your funeral plan." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- My Plans Card -->
+                                <Border Grid.Column="0"
+                                        Grid.Row="1"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="0,0,12,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="ViewPlan">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="My Plans" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="View and manage your active funeral plans." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- Transaction History Card -->
+                                <Border Grid.Column="1"
+                                        Grid.Row="1"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="12,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="TransactionHistory">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="Transaction History" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="Review your payment history and transactions." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- View Application Status Card -->
+                                <Border Grid.Column="2"
+                                        Grid.Row="1"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="12,0,0,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="ViewStatus">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="View Application Status" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="Check the status of your plan applications." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+                                <!-- Update/Transfer Plan Card -->
+                                <Border Grid.Column="0"
+                                        Grid.Row="2"
+                                        Style="{StaticResource CardStyle}"
+                                        Margin="0,0,12,0"
+                                        Tapped="Card_Tapped"
+                                        Tag="UpdateInfo">
+                                    <StackPanel Spacing="16">
+                                        <TextBlock Text="Update/Transfer Plan" FontSize="{ThemeResource SubtitleFontSize}" FontWeight="SemiBold" Foreground="{ThemeResource TextBrush}"/>
+                                        <TextBlock Text="Modify or transfer your existing funeral plans." Foreground="{ThemeResource SecondaryTextBrush}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+
+
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </Frame>
+        </NavigationView>
+    </Grid>
+</Page>

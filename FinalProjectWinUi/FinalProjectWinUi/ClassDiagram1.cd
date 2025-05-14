@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FinalProjectWinUi.Services.AppState">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\AppState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Services.Login">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Services.PlanSubmissionService">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Services\PlanSubmission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Services.PricingData">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PricingData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Services.SignUp">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAgQEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\SignUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.BuyPage">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Pages\BuyPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.HomePage">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\HomePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.MainWindow">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAEAAAAAAAAAAAAAAAACABAAAAAAAAA=</HashCode>
+      <FileName>Pages\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.PlansPage">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\PlansPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.SIgnupForm" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Pages\SIgnupForm.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.UserAccountPage">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\UserAccountPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.CustomerAccount">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAg=</HashCode>
+      <FileName>Models\CustomerAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.PlanPricing">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PlanPricing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.UserApplyPlan">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAFAEBDAABgAIgUkQEEIBACgQABAhAQIAEiBACAg=</HashCode>
+      <FileName>Models\UserApplyPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.ApplyPlanForm" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAACAAAEAAAAAEAAAgAAAACAAAAA=</HashCode>
+      <FileName>Helper\ApplyPlanForm.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.PlanPayment">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAABAAAAAAAAAAAAEAAAAACACAg=</HashCode>
+      <FileName>Helper\PlanPayment.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.App">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Pages.LoginForm">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Pages\LoginForm.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Services.ReceiptService">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Services\ReceiptService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.PlanData">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAQAAAAQgAEAIAAAAAAAAgAAAAACAAAAA=</HashCode>
+      <FileName>Models\ClaimPlanView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.Payment">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAgAACAEAAAAAABAAAAACgAAAA=</HashCode>
+      <FileName>Models\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.PlanHolderData">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAQgAEAIAAAAAAAAAAAAAACBAAAA=</HashCode>
+      <FileName>Models\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.Transaction">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAACAAAAAABABAAAAACgAAAA=</HashCode>
+      <FileName>Models\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.PlanApplication">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAgAAAQAAAAIAAAAAAAAgAAAAACAAAAA=</HashCode>
+      <FileName>Models\ViewStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Models.ClaimApplication">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABIAAAAAAAAAAQAAAQAAAAAAAAAAAAAAEiAAAAA=</HashCode>
+      <FileName>Models\ViewStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.TransactionHistory">
+    <Position X="1" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAABAAAAAgAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Helper\TransactionHistory.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.UpdateInfoPage">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper\UpdateInfoPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.ViewApplicationStatus">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAABAAAAAQAAAAAAAAAAIAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Helper\ViewApplicationStatus.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectWinUi.Helper.ViewPlan">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAggAAAAAAAAgBAAACAAAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Helper\ViewPlan.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
